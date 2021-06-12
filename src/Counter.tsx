@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 const Counter = () => {
   const [count, setCount] = useState(0);
-
+  const name = 'Sandy';
   return (
     <>
       <h3>{count}</h3>
