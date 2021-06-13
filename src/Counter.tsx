@@ -1,8 +1,8 @@
-import { useState } from 'react';
+import { useState } from 'react'
 
 const Counter = () => {
-  const [count, setCount] = useState(0);
-  const name = 'Sandy';
+  const [count, setCount] = useState(0)
+  const name = 'Sandy'
   return (
     <>
       <h3>{count}</h3>
@@ -10,7 +10,7 @@ const Counter = () => {
         increment
       </button>
     </>
-  );
-};
+  )
+}
 
-export default Counter;
+export default Counter
